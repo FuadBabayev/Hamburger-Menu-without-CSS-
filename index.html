@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/imgs/logo.jpg">
+    <title>McDonald's</title>
+</head>
+<body>
+<center>
+    <marquee behavior="alternate" direction="" ><img src="./assets/imgs/main-logo.avif" alt="McDonald's" width="400"><h1>McDonald's Hamburger Sets</h1></marquee>
+
+    <form action="">
+
+        <label for="drinks">Choose a drink:</label>
+        <select name="drinks" id="drinks" >
+            <option selected disabled>DRINKS</option>
+          <optgroup label="Cold drinks" >
+            <option value="tea" >Ice Tea</option>
+            <option value="americano" >Ice Americano</option>
+            <option value="coffee" >Ice Coffee</option>
+          </optgroup>
+          <optgroup label="Hot drinks">
+            <option value="cappucino">Cappucino</option>
+            <option value="coffe">Turkish Coffee</option>
+            <option value="tea">Tea</option>
+          </optgroup>
+          <optgroup label="Energetic drinks">
+            <option value="redbull">RedBull</option>
+            <option value="hell">Hell</option>
+            <option value="bizon">Bizon</option>
+          </optgroup>
+        </select> 
+        <h3>Hamburgers</h3>
+        <input type="radio" name="hamburger" id="hamburger" required> <label for="hamburger"><img src="./assets/imgs/first.png" alt="sous" width="100"></label> 
+        <input type="radio" name="hamburger" id="hamburger2" required> <label for="hamburger2"><img src="./assets/imgs/second.png" alt="sous" width="100"></label>
+        <input type="radio" name="hamburger" id="hamburger3" required> <label for="hamburger3"><img src="./assets/imgs/third.png" alt="sous" width="100"></label> 
+        <input type="radio" name="hamburger" id="hamburger4" required> <label for="hamburger4"><img src="./assets/imgs/nuggets.jpg" alt="sous" width="100"></label> 
+        <input type="radio" name="hamburger" id="hamburger5" required> <label for="hamburger5"><img src="./assets/imgs/fries.jpeg" alt="sous" width="100"></label> 
+        <h3>Ingredients (if you want to)</h3> 
+        <input type="checkbox" name="ingredients" id="sous" > <label for="sous"><img src="./assets/imgs/sous.png" alt="sous" width="100"></label> 
+        <input type="checkbox" name="ingredients" id="sous2"> <label for="sous2"><img src="./assets/imgs/sous2.png" alt="sous" width="100"></label>
+        <input type="checkbox" name="ingredients" id="sous3"> <label for="sous3"><img src="./assets/imgs/sous3.png" alt="sous" width="100"></label> <br> <br> <br>
+        <button type="submit">Create your own lunch</button>
+    </form>
+</center>
+</body>
+</html>
